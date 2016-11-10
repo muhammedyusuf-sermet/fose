@@ -1,3 +1,8 @@
+
+function LoginCtrl($scope){
+	
+}
+
 // Controller for the poll list
 function PollListCtrl($scope, Poll) {
 	$scope.polls = Poll.query();

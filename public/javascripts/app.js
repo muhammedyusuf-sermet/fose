@@ -2,6 +2,7 @@
 angular.module('polls', ['pollServices']).
 	config(['$routeProvider', function($routeProvider) {
 		$routeProvider.
+			when('/homepage', { templateUrl: 'partials/home.html', controller: LoginCtrl }).
 			when('/polls', { templateUrl: 'partials/list.html', controller: PollListCtrl }).
 			when('/poll/:pollId', { templateUrl: 'partials/item.html', controller: PollItemCtrl }).
 			when('/new', { templateUrl: 'partials/new.html', controller: PollNewCtrl }).
