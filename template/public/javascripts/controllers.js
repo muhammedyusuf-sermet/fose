@@ -1,9 +1,5 @@
 
-<<<<<<< HEAD
 function HomepageCtrl($scope) {
-=======
-function LoginCtrl($scope){
->>>>>>> 162fb32973b7879d7ee1cf5f9bef685114045983
 	
 }
 
